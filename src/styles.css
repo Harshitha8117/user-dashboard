@@ -1,0 +1,121 @@
+/* Global */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 30px;
+}
+
+/* Container */
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+/* Center container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;   /* 👈 centers horizontally */
+}
+
+table {
+  margin-top: 10px;
+}
+
+/* Top Controls */
+input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  width: 220px;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Table Container */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* Table Header */
+th {
+  background: #0f172a;
+  color: white;
+  text-align: left;
+  padding: 14px;
+  font-size: 14px;
+}
+
+/* Table Rows */
+td {
+  padding: 14px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #374151;
+}
+
+/* Row Hover */
+tr:hover {
+  background: #f9fafb;
+  cursor: pointer;
+  transform: scale(1.001);
+  transition: 0.15s;
+}
+
+/* Remove last border */
+tr:last-child td {
+  border-bottom: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+}
