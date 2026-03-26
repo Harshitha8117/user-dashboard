@@ -1,16 +1,122 @@
-# React + Vite
+# 🚀 User Intelligence Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based dashboard for exploring user data with real-time search, sorting, and detailed profile views.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Overview
 
-## React Compiler
+This project is a **User Directory Dashboard** built using React.
+It allows users to browse, search, sort, and explore detailed information about users fetched from a public API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application focuses on **clean UI, smooth UX, and efficient client-side data handling**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 📊 Display users in a structured table
+* 🔍 Real-time search (by name & email)
+* ↕️ Sorting (Name & Company - Asc/Desc)
+* 🔗 Click-to-view detailed user profiles
+* 🔙 Back navigation for seamless UX
+* 🎨 Clean and responsive UI
+
+---
+
+## 🧠 Key Highlights
+
+* Efficient **client-side filtering and sorting**
+* **Reusable component-based architecture**
+* **Dynamic routing** using React Router
+* Improved UX with **state-driven interactions**
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Routing:** React Router
+* **API:** JSONPlaceholder
+* **Styling:** CSS (custom styling)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── UserTable.jsx
+│   ├── SearchBar.jsx
+│   ├── SortControls.jsx
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── UserDetail.jsx
+│
+├── services/
+│   ├── api.js
+│
+├── App.jsx
+├── main.jsx
+├── styles.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/YOUR_USERNAME/user-dashboard.git
+cd user-dashboard
+```
+
+### 2. Install dependencies
+
+```
+npm install
+```
+
+### 3. Run the project
+
+```
+npm run dev
+```
+
+### 4. Open in browser
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 🌐 API Used
+
+* https://jsonplaceholder.typicode.com/users
+
+---
+
+
+## 🚀 Future Enhancements
+
+* Pagination for large datasets
+* Debounced search for performance
+* Loading skeletons
+* Improved mobile responsiveness
+* UI upgrade using Tailwind CSS
+
+---
+
+## 👨‍💻 Author
+
+**Harshitha**
+
+---
+
+## 📄 License
+
+This project is for assessment and learning purposes.
